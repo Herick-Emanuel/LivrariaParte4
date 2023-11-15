@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil</title>
+    <link rel="stylesheet" href="Embelezando.css">
+    <script src="Perfil.js"></script>
+</head>
+<body>
+  <div style="float: right;">
+    <a href="Perfil.html">
+      <img id="foto-perfil" src="Windons/Imagens/IconePerfil.png" alt="Imagem não encontrada" width="70" title="Perfil" class="imagens"></a>
+    <a href="Carrinho.html">
+      <img src="Windons2/Imagens/Carrinho.png" alt="Imagem não encontrada" width="70" title="Carrinho" class="imagens">
+    </a>
+  </div>
+  <h1 style="margin-top: -50px;" class="paragrafo">Perfil do Usuário</h1> 
+  <div style="margin-top: 50px;"></div>
+  <div>
+    <label for="nome" class="paragrafo">Nome:</label>
+    <span id="nome" class="paragrafo"></span>
+  </div>
+  <div style="margin-top: 20px;"></div>
+  <div>
+    <label for="email" class="paragrafo">E-mail:</label>
+    <span id="email" class="paragrafo"></span>
+    <div class="form-group" style="margin-top: 15px;">
+      <label for="input-foto-perfil">Foto de Perfil:</label>
+      <input type="file" id="input-foto-perfil" accept="image/*">
+    </div>
+    <div>
+      <label for="biografia" class="paragrafo">Biografia:</label> <br>
+      <textarea id="biografia" name="biografia" class="perfil-textarea"></textarea> <br>
+      <button id="salvar-biografia" class="meu-botao">Salvar Biografia</button>
+    </div>
+    <div>
+      <h3 style="margin-top: 20px;" class="paragrafo">Biografia:</h3>
+      <div id="biografia-container"></div>
+    </div>
+    <a href="paginaInicial.html">
+      <button class="meu-botao" style="margin-left: 650px;">Voltar a pagina inicial</button>
+    </a>
+    <script src="perfil.js"></script>
+    <script src="alterarFotoPerfil.js"></script>
+</body>
+</html>

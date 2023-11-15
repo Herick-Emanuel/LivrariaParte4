@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="Embelezando.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Cadastro de Usuário</h1> <br><br><br><br>
+        <hr>
+        <form id="cadastro-form">
+            <label for="nome" class="label">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+            <label for="email" class="label">E-mail</label>
+            <input type="email" id="email" name="email" required>
+            <label for="Senha" class="label">Senha:</label>
+            <input type="password" name="senha" id="senha">
+            <label for="ConfirmarSenha" class="label">Confirmar Senha:</label>
+            <input type="password" id="confirmar-senha" name="confirmar-senha">
+            <input type="submit" value="Cadastrar" class="botao">
+        </form>
+    </div>
+
+    <script src="Cadastro.js"></script>
+
+    <a href="Login.html">
+        <button style="margin-left: 650px;">Voltar a página de Login</button>
+    </a>
+</body>
+
+</html>

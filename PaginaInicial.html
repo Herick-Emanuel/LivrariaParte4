@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pagina Inicial</title>
+  <link rel="stylesheet" href="Embelezando.css">
+  <script src="PaginaInicial.js"></script>
+  <script src="Carrinho.js"></script>
+</head>
+<body>
+  <a href="PaginaDescrição.html"><img src="Windons2/Imagens/Livro.jpg" alt="Imagem não encontrada" width="200" title="Livraria">
+  </a>
+  <h1>Bem vindo a Herick's Book a melhor loja de livros do Brasil</h1>
+  <div style="float: right;">
+    <a href="Perfil.html">
+      <img id="foto-perfil" src="Windons/Imagens/IconePerfil.png" alt="Imagem não encontrada" width="70" title="Perfil" class="imagens"></a>
+    <a href="Carrinho.html">
+      <img src="Windons2/Imagens/Carrinho.png" alt="Imagem não encontrada" width="70" title="Carrinho" class="imagens">
+    </a>
+  </div>
+  <br> <br>
+  <div>
+  <a href="Exemplares.html">
+    <button class="botao">Exemplares mais vendidos</button>
+  </a>
+  </div>
+  <div>
+    <label for="selectGenero">Filtrar por Gênero:</label>
+    <select id="selectGenero">
+      <option value="Todos">Todos</option>
+      <option value="Ficção">Ficção</option>
+      <option value="Fantasia">Fantasia</option>
+      <option value="Romance">Romance</option>
+      <option value="Aventura">Aventura</option>
+    </select>
+    <hr>
+  </div>
+  <div id="bookList"></div>
+  <script src="alterarFotoPerfil.js"></script>
+</body>
+</html> 
